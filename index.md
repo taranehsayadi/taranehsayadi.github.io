@@ -8,5 +8,11 @@ title: Homepage
 
 # Research
 
+* Computational Fluid Mechanics
+* Multi-fidelity Optimisation of Complex Flows 
+* Model Reduction 
+* Data Decomposition 
+
+
 # News
 
