@@ -15,4 +15,4 @@ title: Homepage
 
 
 # News
-
+* Ou group welcomes Clement Scherding and Simon Kneer, working on modeling and computation of highly compressible flows
