@@ -2,15 +2,15 @@
 title: MU5MEF41
 ---
 
-# Sessions
+# Notes
 
-## 20/01/21
+* [20/01/21](Notes/MUMEF41_Notes_S1.pdf)
+* [27/01/21](Notes/MUMEF41_Notes_S2.pdf)
 
-* [Notes](Notes/MUMEF41_Notes_S1.pdf)
+# Notebooks
 
-## 27/01/21
-
-* [Notes](Notes/MUMEF41_Notes_S2.pdf)
+* [Intro](Notebooks/intro.ipynb)
+* [20/01/21](Notebooks/S1.zip)
 
 # Problem sets
 
