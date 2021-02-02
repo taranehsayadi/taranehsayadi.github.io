@@ -10,9 +10,12 @@ title: MU5MEF41
 # Notebooks
 
 * [Intro](Notebooks/intro.ipynb)
-* [20/01/21](Notebooks/S1.zip)
+* [GardientOptimisation](Notebooks/S1.zip)
+* [SamplingPlans](Notebooks/SamplingPlans.zip)
+* [PopulationMethods](Notebooks/PopulationMethods.zip)
 
 # Problem sets
 
 * [Problem set 1](PS/PS1.pdf)
 * [Problem set 2](PS/PS2.pdf)
+* [Problem set 3](PS/PS3.pdf)
