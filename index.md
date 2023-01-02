@@ -9,7 +9,7 @@ title: Homepage
 
 # Research
 
-* Computational Fluid Mechanics
+* [Data-driven model Design](DDMD/index.md)
 * Multi-fidelity Optimisation of Complex Flows 
 * Model Reduction 
 * Data Decomposition 
