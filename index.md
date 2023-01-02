@@ -9,11 +9,10 @@ title: Homepage
 
 # Research
 
-* [Data-driven model Design](DDMD/index.md)
-* Multi-fidelity Optimisation of Complex Flows 
-* Model Reduction 
-* Data Decomposition 
+* [AI & Fluid Mechanics](AIFM/index.md)
+* [Optimisation & Fluid Mechanics](OFM/index.md) 
 
 
 # News
-* Our group welcomes **Clement Scherding** and **Simon Kneer**, working on modeling and computation of highly compressible flows
+* [Internship](STAGE/index.md)
+* [PhD](PHD/index.md)
