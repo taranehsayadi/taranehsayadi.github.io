@@ -1,9 +1,6 @@
 ---
-title: Data-Driven Model Design
+title: Open positions for PhD
 ---
 
-# Multi-fidelity stochastic optimisation of flows
-
-# Optimisation of phase change and interfacial flows
-
-# Parallel-in-time adjoint-based optimisation
+# EDNN
+![First topic](PhD1.png "PhD positions")
