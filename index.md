@@ -19,3 +19,7 @@ title: Homepage
 # News
 * [Internship](STAGE/index.md)
 * [PhD](PHD/index.md)
+
+# [Papers](Papers/index.md)
+# [CV](CV/index.md)
+
