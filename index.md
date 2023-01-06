@@ -14,12 +14,15 @@ title: Homepage
 * [AI & Fluid Mechanics](AIFM/index.md)
 * [Optimisation & Fluid Mechanics](OFM/index.md) 
 * Inerfacial flows and phase change
-* Solid feul combustion
+* Solid fuel combustion
 
 # News
 * [Internship](STAGE/index.md)
 * [PhD](PHD/index.md)
 
-# [Papers](Papers/index.md)
-# [CV](CV/index.md)
+#Papers 
+*[Papers](Papers/index.md)
+
+#CV 
+*[CV](CV/index.md)
 
