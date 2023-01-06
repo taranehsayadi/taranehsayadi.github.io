@@ -4,10 +4,10 @@ title: Homepage
 
 # Teaching
 
-* [MU5MEF41](MU5MEF41/index.md)
-* [MU4MEF01](MU4MEF01/index.md)
-* MU4MEM02
-* MU4MEF08
+* [MU5MEF41 - Optimisation algorithms](MU5MEF41/index.md)
+* [MU4MEF01 - Numerical methods for linear PDEs](MU4MEF01/index.md)
+* MU4MEM02 - Numerical methods for non-linear PDE's
+* MU4MEF08 - Hydrodynamic instability
 
 # Research
 
@@ -17,8 +17,8 @@ title: Homepage
 * Solid fuel combustion
 
 # News
-* [Internship](STAGE/index.md)
-* [PhD](PHD/index.md)
+* [Internship openings](STAGE/index.md)
+* [PhD openings](PHD/index.md)
 
 # Papers 
 * [Papers](Papers/index.md)
