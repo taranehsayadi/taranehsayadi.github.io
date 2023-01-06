@@ -21,8 +21,8 @@ title: Homepage
 * [PhD](PHD/index.md)
 
 #Papers 
-*[Papers](Papers/index.md)
+* [Papers](Papers/index.md)
 
 #CV 
-*[CV](CV/index.md)
+* [CV](CV/index.md)
 
