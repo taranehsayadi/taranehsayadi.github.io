@@ -20,9 +20,9 @@ title: Homepage
 * [Internship](STAGE/index.md)
 * [PhD](PHD/index.md)
 
-#Papers 
+# Papers 
 * [Papers](Papers/index.md)
 
-#CV 
+# CV 
 * [CV](CV/index.md)
 
