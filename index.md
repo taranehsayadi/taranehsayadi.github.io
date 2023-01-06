@@ -19,10 +19,8 @@ title: Homepage
 # News
 * [Internship openings](STAGE/index.md)
 * [PhD openings](PHD/index.md)
-
-# Papers 
-* [Papers](Papers/index.md)
-
-# CV 
-* [CV](CV/index.md)
+ 
+# [Papers](Papers/index.md)
+ 
+# [CV](CV/index.md)
 
