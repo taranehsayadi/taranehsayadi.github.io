@@ -11,10 +11,10 @@ title: Homepage
 
 # Research
 
-* [AI & Fluid Mechanics](AIFM/index.md)
-* [Optimisation & Fluid Mechanics](OFM/index.md) 
-* Inerfacial flows and phase change
-* Solid fuel combustion
+* [AI-driven modeling](AIFM/index.md)
+* [Multi-fidelity optimisation](OFM/index.md) 
+* [Simulations of complex flows](CFD/index.md)
+* [Sensitivity analysis and uncertainty quantification](UQ/index.md)
 
 # News
 * [Internship openings](STAGE/index.md)
