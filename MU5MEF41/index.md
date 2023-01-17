@@ -6,7 +6,7 @@ title: MU5MEF41
 # Sessions
 
 * [Intro](Notebooks/intro.ipynb)
-* [Session 1](Sessions/sesion1.zip) 
+* [Session 1](Session/session1.zip) 
 
 
 # Problem sets
