@@ -1,6 +1,15 @@
 ---
 title: Papers
 ---
+# 2024
+* A. Quirós Rodríguez, M. Fosas de Pando, & T. Sayadi (2024). Gradient-enhanced stochastic optimization of high-fidelity simulations, Computer Physics Communications,
+Vol. 298, 109122
+
+# 2023
+* C. Scherding, G. Rigas, D. Sipp, P.J. Schmid, & T. Sayadi (2023). Data-driven framework for input/output lookup tables reduction: Application to hypersonic flows in chemical nonequilibrium. Phys. Rev. Fluids, Vol. 8, 023201
+* A. Hassan, M. Sabry, V. Le Chenadec, & T. Sayadi (2023). Uncertainty quantification of kinetic models using adjoint-driven active subspace algorithms, Proceedings of the Combustion Institute,
+Vol. 39(4): 5209-5218 
+
 
 # 2022
 * T. Fullana, V. Le Chenadec, & T. Sayadi (2022). Adjoint-based optimization of two-dimensional Stefan problems, J Comp. Physics, https://doi.org/10.1016/j.jcp.2022.111875 
