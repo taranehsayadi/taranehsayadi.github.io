@@ -16,7 +16,7 @@ title: Homepage
 * [Simulations of complex flows](CFD/index.md)
 * [Sensitivity analysis and uncertainty quantification](UQ/index.md)
 
-# News
+# Open positions
 * [Internship openings](STAGE/index.md)
 * [PhD openings](PHD/index.md)
 * [PostDoc openings](POSTDOC/index.md)
