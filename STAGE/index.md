@@ -1,5 +1,5 @@
 ---
-title: Open positions in the group
+title: Open internships in the group
 ---
 
 

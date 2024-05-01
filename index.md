@@ -19,6 +19,7 @@ title: Homepage
 # News
 * [Internship openings](STAGE/index.md)
 * [PhD openings](PHD/index.md)
+* [PostDoc openings](POSTDOC/index.md)
  
 # [Papers](Papers/index.md)
  
