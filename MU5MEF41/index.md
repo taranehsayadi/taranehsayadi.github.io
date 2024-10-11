@@ -9,23 +9,13 @@ title: MU5MEF41
 * [Session3 - Population Methods](Session/PopulationMethods.zip)
 * [Session3 - Sampling Plans](Session/SamplingPlans.zip)
 
-<!--
-* [Session 1](Session/session1.zip) 
--->
-
 # Problem sets
 * [Problem set 1](PS/PS1.ipynb)
 * [Problem set 1 -- Solution](PS/PS1_soln.ipynb)
 * [Problem set 2](PS/PS2.ipynb)
 * [Problem set 2 -- Solution](PS/PS2_soln.ipynb)
 * [Problem set 3](PS/PS3.ipynb)
-
-<!--
 * [Problem set 4](PS/PS4.ipynb)
-
-# Exam
-* [Exam](Exam/Exam.ipynb)
--->
 
 # Projects
 * [Project 1 -- Genetic Algorithm](Projects/GA-solid.pdf)
