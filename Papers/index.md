@@ -2,10 +2,10 @@
 title: Papers
 ---
 # 2024
+* C. Scherding, G. Rigas, D. Sipp, P.J. Schmid, & T. Sayadi (2024) An adaptive learning strategy for surrogate modeling of high-dimensional functions - Application to unsteady hypersonic flows in chemical nonequilibrium. Computer Physics Communications, 109404
 * A. Quirós Rodríguez, M. Fosas de Pando, & T. Sayadi (2024). Gradient-enhanced stochastic optimization of high-fidelity simulations, Computer Physics Communications,
 Vol. 298, 109122
-* A. Hassan, L. Schumacher, M. Sabry, V. Le Chenadec, & T. Sayadi (2024). Uncertainty quantification and sensitivity analysis of an unsteady axisymmetric reacting solid particle, Combustion and Flame,
-Vol. 262, 113365
+* A. Hassan, L. Schumacher, M. Sabry, V. Le Chenadec, & T. Sayadi (2024). Uncertainty quantification and sensitivity analysis of an unsteady axisymmetric reacting solid particle, Combustion and Flame, Vol. 262, 113365
 
 # 2023
 * C. Scherding, G. Rigas, D. Sipp, P.J. Schmid, & T. Sayadi (2023). Data-driven framework for input/output lookup tables reduction: Application to hypersonic flows in chemical nonequilibrium. Phys. Rev. Fluids, Vol. 8, 023201
