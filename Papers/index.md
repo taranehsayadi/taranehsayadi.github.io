@@ -2,8 +2,8 @@
 title: Papers
 ---
 # 2024
-* A. Quirós Rodríguez, V. Fullana, V. Le Chenadec, & T. Sayadi. A levelset-based cut-cell method for interfacial flows: part 1—Navier–Stokes equations and Rayleigh–Bénard instability with melting boundary. Acta Mech. https://doi.org/10.1007/s00707-024-04133-4
-* C. Scherding, G. Rigas, D. Sipp, P.J. Schmid, & T. Sayadi (2024) An adaptive learning strategy for surrogate modeling of high-dimensional functions - Application to unsteady hypersonic flows in chemical nonequilibrium. Computer Physics Communications, 109404
+* A. Quirós Rodríguez, V. Fullana, V. Le Chenadec, & T. Sayadi (2024). A levelset-based cut-cell method for interfacial flows: part 1—Navier–Stokes equations and Rayleigh–Bénard instability with melting boundary. Acta Mech. https://doi.org/10.1007/s00707-024-04133-4
+* C. Scherding, G. Rigas, D. Sipp, P.J. Schmid, & T. Sayadi (2024). An adaptive learning strategy for surrogate modeling of high-dimensional functions - Application to unsteady hypersonic flows in chemical nonequilibrium. Computer Physics Communications, 109404
 * A. Quirós Rodríguez, M. Fosas de Pando, & T. Sayadi (2024). Gradient-enhanced stochastic optimization of high-fidelity simulations, Computer Physics Communications,
 Vol. 298, 109122
 * A. Hassan, L. Schumacher, M. Sabry, V. Le Chenadec, & T. Sayadi (2024). Uncertainty quantification and sensitivity analysis of an unsteady axisymmetric reacting solid particle, Combustion and Flame, Vol. 262, 113365
