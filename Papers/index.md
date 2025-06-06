@@ -1,12 +1,16 @@
 ---
 title: Papers
 ---
+# 2025
+* N. Sevryugina, S. Costanzo, S. de Bruyn Kops, C. Caulfield, I. Mortazavi & T. Sayadi (2025). Equation-informed data-driven identification of flow budgets and dynamics. Phys. Rev. Fluids. DOI:10.1103/45wc-c3ww
+* A.T. Margaritis, C. Scherding, O. Marxen, P.J. Schmid & T. Sayadi (2025). Chemical-nonequilibrium effects in a range of hypersonic applications. European Journal of Mechanics - B/Fluids. https://doi.org/10.1016/j.euromechflu.2025.204273.
+* P. Gupta, P.J. Schmid, D. Sipp, T. Sayadi & G. Rigas (2025). Mori–Zwanzig latent space Koopman closure for nonlinear autoencoder. Proc. R. Soc. A.481, http://doi.org/10.1098/rspa.2024.0259.
+
 # 2024
 * A. Quirós Rodríguez, T. Fullana, T. Sayadi & V. Le Chenadec (2024). A levelset-based cut-cell method for interfacial flows: part 2—free-surface flows and dynamic contact angle treatment. Acta Mech https://doi.org/10.1007/s00707-024-04170-z
 * A. Quirós Rodríguez, V. Fullana, V. Le Chenadec, & T. Sayadi (2024). A levelset-based cut-cell method for interfacial flows: part 1—Navier–Stokes equations and Rayleigh–Bénard instability with melting boundary. Acta Mech. https://doi.org/10.1007/s00707-024-04133-4
 * C. Scherding, G. Rigas, D. Sipp, P.J. Schmid, & T. Sayadi (2024). An adaptive learning strategy for surrogate modeling of high-dimensional functions - Application to unsteady hypersonic flows in chemical nonequilibrium. Computer Physics Communications, 109404
-* A. Quirós Rodríguez, M. Fosas de Pando, & T. Sayadi (2024). Gradient-enhanced stochastic optimization of high-fidelity simulations, Computer Physics Communications,
-Vol. 298, 109122
+* A. Quirós Rodríguez, M. Fosas de Pando, & T. Sayadi (2024). Gradient-enhanced stochastic optimization of high-fidelity simulations, Computer Physics Communications, Vol. 298, 109122
 * A. Hassan, L. Schumacher, M. Sabry, V. Le Chenadec, & T. Sayadi (2024). Uncertainty quantification and sensitivity analysis of an unsteady axisymmetric reacting solid particle, Combustion and Flame, Vol. 262, 113365
 
 # 2023
