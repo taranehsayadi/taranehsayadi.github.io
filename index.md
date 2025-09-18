@@ -1,9 +1,11 @@
 <!-- Link to the custom CSS file -->
 <link rel="stylesheet" href="assets/css/custom.css">
 
-# Welcome to My Page
-
-![My Image](assets/myphoto.jpg)
+<div class="page-header">
+  <h1>Welcome to My Page</h1>
+  <p>Here is a subtitle</p>
+  <img src="assets/myphoto.jpg" class="header-image">
+</div>
 
 # Teaching
 
