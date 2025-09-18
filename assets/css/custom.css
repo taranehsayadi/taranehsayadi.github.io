@@ -1,7 +1,15 @@
 body {
-  background-color: #fff8f0;
+  background-color: #0044cc; /* a nice deep blue */
+  color: white;              /* makes all text white */
 }
 
-h1 {
-  color: darkgreen;
+a {
+  color: #aaddff; /* optional: make links easier to see */
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 90%;
+  border-radius: 8px;
 }

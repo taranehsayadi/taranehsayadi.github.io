@@ -1,6 +1,8 @@
 <!-- Link to the custom CSS file -->
 <link rel="stylesheet" href="assets/css/custom.css">
 
+# Welcome to My Page
+
 ![My Image](assets/myphoto.jpg)
 
 # Teaching
