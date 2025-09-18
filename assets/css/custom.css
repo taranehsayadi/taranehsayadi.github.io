@@ -1,22 +1,27 @@
+/* Hide the default Cayman header */
 .page-header {
   display: none;
 }
+
+/* Your custom header */
 .custom-header {
-  background-color: #0044cc;
+  background-color: #0044cc; /* Deep blue */
   color: white;
   text-align: center;
   padding: 60px 20px;
 }
 
+/* Style the text inside your custom header */
 .custom-header h1,
 .custom-header p {
   color: white;
   margin: 0 0 20px 0;
 }
 
+/* Style the image inside your custom header */
 .custom-header img {
   width: 200px;
+  max-width: 80%;
   border-radius: 10px;
   margin-top: 20px;
 }
-

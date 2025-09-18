@@ -1,10 +1,15 @@
-<!-- Link to the custom CSS file -->
+---
+layout: default
+---
+
+<!-- Link to the custom CSS -->
 <link rel="stylesheet" href="assets/css/custom.css">
 
-<div class="page-header">
+<!-- Custom header section with blue background -->
+<div class="custom-header">
   <h1>Welcome to My Page</h1>
-  <p>Here is a subtitle</p>
-  <img src="assets/myphoto.jpg" class="header-image">
+  <p>This is my personal site with a custom header</p>
+  <img src="assets/myphoto.jpg" alt="My Photo">
 </div>
 
 # Teaching

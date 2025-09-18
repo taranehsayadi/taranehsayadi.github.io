@@ -1,6 +1,3 @@
 title: Taraneh Sayadi
 description: taraneh.sayadi@lecnam.net
 theme: jekyll-theme-cayman
-# Add custom CSS
-sass:
-  style: compressed
