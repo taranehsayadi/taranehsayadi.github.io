@@ -2,7 +2,7 @@
 title: Homepage
 ---
 
-![My Image](assets/myphoto.jpg
+![My Image](assets/myphoto.jpg)
 
 # Teaching
 
