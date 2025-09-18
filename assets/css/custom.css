@@ -1,17 +1,22 @@
 .page-header {
+  display: none;
+}
+.custom-header {
   background-color: #0044cc;
   color: white;
   text-align: center;
-  padding: 40px 20px;
+  padding: 60px 20px;
 }
 
-.page-header h1,
-.page-header p {
+.custom-header h1,
+.custom-header p {
   color: white;
+  margin: 0 0 20px 0;
 }
 
-.header-image {
-  margin-top: 20px;
+.custom-header img {
   width: 200px;
   border-radius: 10px;
+  margin-top: 20px;
 }
+
