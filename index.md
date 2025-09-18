@@ -1,6 +1,5 @@
----
-title: Homepage
----
+<!-- Link to the custom CSS file -->
+<link rel="stylesheet" href="assets/css/custom.css">
 
 ![My Image](assets/myphoto.jpg)
 
