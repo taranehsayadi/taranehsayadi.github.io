@@ -7,8 +7,8 @@ layout: default
 
 <!-- Custom header section with blue background -->
 <div class="custom-header">
-  <h1>Welcome to My Page</h1>
-  <p>This is my personal site with a custom header</p>
+  <h1>Taraneh SAYADI</h1>
+  <p>taraneh.sayadi@lecnam.net</p>
   <img src="assets/myphoto.jpg" alt="My Photo">
 </div>
 
