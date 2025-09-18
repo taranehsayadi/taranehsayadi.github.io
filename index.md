@@ -2,6 +2,8 @@
 title: Homepage
 ---
 
+![My Image](assets/myphoto.jpg
+
 # Teaching
 
 * [MU5MEF41 - Optimisation algorithms](MU5MEF41/index.md)
