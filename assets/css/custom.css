@@ -2,26 +2,50 @@
 .page-header {
   display: none;
 }
+/* Hide the default Cayman header */
+.page-header {
+  display: none;
+}
 
-/* Your custom header */
+/* Custom header styling */
 .custom-header {
-  background-color: #0044cc; /* Deep blue */
+  background-color: #333333; /* Charcoal gray */
   color: white;
   text-align: center;
   padding: 60px 20px;
 }
 
-/* Style the text inside your custom header */
+/* Text inside header */
 .custom-header h1,
 .custom-header p {
   color: white;
   margin: 0 0 20px 0;
 }
 
-/* Style the image inside your custom header */
+/* Image styling inside header */
 .custom-header img {
   width: 200px;
   max-width: 80%;
   border-radius: 10px;
   margin-top: 20px;
+}
+
+/* === Main page content === */
+body {
+  background-color: #ffffff; /* Keep the rest of the page white */
+  color: #222222;            /* Dark gray text for readability */
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0 20px;
+}
+
+/* Optional: styling for links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
