@@ -14,6 +14,8 @@ title: MU5MEF41
 
 # Problem sets
 * [Problem set 1](PS/PS1.ipynb)
+* [Problem set 1 -- Solution](PS/PS1_soln.ipynb)
+* [Problem set 2](PS/PS3-old.ipynb)
 
 <!---
 * [Problem set 1 -- Solution](PS/PS1_soln.ipynb)
