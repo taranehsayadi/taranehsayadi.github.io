@@ -16,6 +16,7 @@ title: MU5MEF41
 * [Problem set 1](PS/PS1.ipynb)
 * [Problem set 1 -- Solution](PS/PS1_soln.ipynb)
 * [Problem set 2](PS/PS3-old.ipynb)
+* [Problem set 2 -- Solution](PS/PS3-old_soln.ipynb)
 
 <!---
 * [Problem set 1 -- Solution](PS/PS1_soln.ipynb)
@@ -25,7 +26,7 @@ title: MU5MEF41
 * [Problem set 4](PS/PS4.ipynb)
 -->
 
-<!---
+
 # Projects
 * [Project 1 -- Genetic Algorithm](Projects/GA-solid.pdf)
 * [Project 2 -- G-DYCORE](Projects/G-DYCORE.pdf)
@@ -33,7 +34,6 @@ title: MU5MEF41
 * [Project 4 -- Input Output Control](Projects/Inp_out_adjoint.pdf)
 * [Project 5 -- Reinforcement Learning](Projects/RL_flow.pdf)
 * [Project 6 -- Surrogate Models](Projects/Surrogate_models.pdf)
--->
 
 
 
