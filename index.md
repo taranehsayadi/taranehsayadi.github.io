@@ -14,7 +14,7 @@ layout: default
 
 # Teaching
 
-* [MU5MEF41 - Optimisation algorithms](MU5MEF41/index.md)
+* [UM5MEF41 - Optimisation algorithms](MU5MEF41/index.md)
 * [MU4MEF01 - Numerical methods for linear PDEs](MU4MEF01/index.md)
 * MU4MEM02 - Numerical methods for non-linear PDE's
 * MU4MEF08 - Hydrodynamic instability

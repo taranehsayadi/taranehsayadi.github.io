@@ -6,17 +6,15 @@ title: MU5MEF41
 # Sessions
 
 * [Intro](Notebooks/intro.ipynb)
-
-<!---
 * [Session3 - Population Methods](Session/PopulationMethods.zip)
 * [Session3 - Sampling Plans](Session/SamplingPlans.zip)
--->
 
 # Problem sets
 * [Problem set 1](PS/PS1.ipynb)
 * [Problem set 1 -- Solution](PS/PS1_soln.ipynb)
 * [Problem set 2](PS/PS3-old.ipynb)
 * [Problem set 2 -- Solution](PS/PS3-old_soln.ipynb)
+* [Problem set 3](PS/PS3.ipynb)
 
 <!---
 * [Problem set 1 -- Solution](PS/PS1_soln.ipynb)
