@@ -2,6 +2,7 @@
 title: Papers
 ---
 # 2025
+* I. Zighed, N. Thome, P. Gallinari and T. Sayadi (2025). Uncertainty-aware and parametrized dynamic reduced-order model: Application to unsteady flows. Phys. Rev. Fluids. Vol:10(11).  
 * N. Sevryugina, S. Costanzo, S. de Bruyn Kops, C. Caulfield, I. Mortazavi & T. Sayadi (2025). Equation-informed data-driven identification of flow budgets and dynamics. Phys. Rev. Fluids. DOI:10.1103/45wc-c3ww
 * A.T. Margaritis, C. Scherding, O. Marxen, P.J. Schmid & T. Sayadi (2025). Chemical-nonequilibrium effects in a range of hypersonic applications. European Journal of Mechanics - B/Fluids. https://doi.org/10.1016/j.euromechflu.2025.204273.
 * P. Gupta, P.J. Schmid, D. Sipp, T. Sayadi & G. Rigas (2025). Mori–Zwanzig latent space Koopman closure for nonlinear autoencoder. Proc. R. Soc. A.481, http://doi.org/10.1098/rspa.2024.0259.
