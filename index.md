@@ -9,7 +9,7 @@ layout: default
 <div class="custom-header">
   <h1>Taraneh SAYADI</h1>
   <p>taraneh.sayadi@lecnam.net</p>
-  <img src="assets/myphoto.jpg" alt="My Photo">
+  <img src="assets/profile_photo.jpg" alt="My Photo">
 </div>
 
 # Teaching
