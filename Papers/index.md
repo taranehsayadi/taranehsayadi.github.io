@@ -2,8 +2,9 @@
 title: Papers
 ---
 # 2026
-* K. Niemietz, C. Scherding, W. Gemassmer, T. Sayadi, H. Pitsch (2026). An adaptive-learning framework for chemistry tabulation in turbulent reacting flows. Computers & Fluids. Vol 314.
-* I. Zighed, N. Thome, P. Gallinari, T. Sayadi (2026). Leveraging Scale Separation and Stochastic Closure for Data-Driven Prediction of Chaotic Dynamics. Data-Centric Engineering. 
+* K. Niemietz, C. Scherding, W. Gemassmer, T. Sayadi and H. Pitsch (2026). An adaptive-learning framework for chemistry tabulation in turbulent reacting flows. Computers & Fluids. Vol 314.
+* I. Zighed, N. Thome, P. Gallinari and T. Sayadi (2026). Leveraging Scale Separation and Stochastic Closure for Data-Driven Prediction of Chaotic Dynamics. Data-Centric Engineering. 
+* T. Fullana, A. Quiros Rodriguez, V. Le Chenadec and T. Sayadi (2026). Adjoint-based optimization of the Rayleigh-Bénard instability with melting boundary. Structural and Multidisciplinary Optimization. 
 
 # 2025
 * I. Zighed, N. Thome, P. Gallinari and T. Sayadi (2025). Uncertainty-aware and parametrized dynamic reduced-order model: Application to unsteady flows. Phys. Rev. Fluids. Vol:10(11).  
