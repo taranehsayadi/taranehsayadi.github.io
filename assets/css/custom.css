@@ -1,51 +1,166 @@
+/* === Cnam fonts === */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&family=Crimson+Pro:wght@400;600&display=swap');
+
+/* === Cnam brand tokens === */
+:root {
+  --cnam-red: #C8102E;
+  --cnam-red-dark: #9c0c23;
+  --ink: #1a1a1a;
+  --muted: #5c5c5c;
+  --bg: #ffffff;
+  --card-bg: #ffffff;
+  --card-border: #e6e6e6;
+}
+
 /* Hide the default Cayman header */
 .page-header {
   display: none;
 }
-/* Hide the default Cayman header */
-.page-header {
-  display: none;
-}
 
-/* Custom header styling */
-.custom-header {
-  background-color: #008080; 
-  color: white;
-  text-align: center;
-  padding: 60px 20px;
-}
-
-/* Text inside header */
-.custom-header h1,
-.custom-header p {
-  color: white;
-  margin: 0 0 20px 0;
-}
-
-/* Image styling inside header */
-.custom-header img {
-  width: 200px;
-  max-width: 80%;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-
-/* === Main page content === */
+/* === Base page === */
 body {
-  background-color: #ffffff; /* Keep the rest of the page white */
-  color: #222222;            /* Dark gray text for readability */
-  font-family: system-ui, sans-serif;
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: 'Crimson Pro', Georgia, serif;
   line-height: 1.6;
   margin: 0;
-  padding: 0 20px;
+  padding: 0;
 }
 
-/* Optional: styling for links */
+.main-content,
+.page-content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 24px 60px;
+}
+
+/* === Top logo bar (overline, top-left per Cnam charte) === */
+.cnam-bar {
+  border-bottom: 1px solid var(--card-border);
+  padding: 16px 24px;
+}
+
+.cnam-bar img {
+  height: 44px;
+  width: auto;
+  display: block;
+}
+
+/* === Header (name + email + photo) === */
+.custom-header {
+  text-align: center;
+  padding: 48px 20px 32px;
+  border-bottom: 4px solid var(--cnam-red);
+  margin-bottom: 40px;
+}
+
+.custom-header img {
+  width: 160px;
+  max-width: 60%;
+  border-radius: 50%;
+  border: 4px solid var(--cnam-red);
+  margin-bottom: 20px;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+.custom-header h1 {
+  font-family: 'Raleway', system-ui, sans-serif;
+  font-weight: 700;
+  color: var(--cnam-red);
+  letter-spacing: 0.5px;
+  margin: 0 0 6px 0;
+}
+
+.custom-header p {
+  color: var(--muted);
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+/* === Section titles === */
+h1, h2, h3 {
+  font-family: 'Raleway', system-ui, sans-serif;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.section-title {
+  font-family: 'Raleway', system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--ink);
+  margin: 40px 0 4px;
+  padding-left: 12px;
+  border-left: 5px solid var(--cnam-red);
+}
+
+/* === Card grid === */
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  margin: 18px 0 8px;
+}
+
+.section-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 22px 20px;
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+a.section-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--cnam-red);
+  box-shadow: 0 10px 24px rgba(200, 16, 46, 0.15);
+  text-decoration: none;
+}
+
+/* Non-linked placeholder cards (no page yet) */
+.section-card.disabled {
+  opacity: 0.65;
+  cursor: default;
+}
+
+.section-card .icon {
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.section-card .card-title {
+  font-family: 'Raleway', system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--cnam-red);
+  margin: 0 0 6px 0;
+}
+
+.section-card .card-desc {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* === Links === */
 a {
-  color: #0066cc;
+  color: var(--cnam-red);
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+/* === Mobile === */
+@media (max-width: 480px) {
+  .section-grid {
+    grid-template-columns: 1fr;
+  }
 }
