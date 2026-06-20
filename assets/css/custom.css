@@ -95,69 +95,71 @@ h1, h2, h3 {
 /* === Tab navigation === */
 .tab-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 18px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
   margin-top: 40px;
   align-items: start;
 }
 
-/* Shared box look for both <details> tabs and direct links */
+/* Shared red box look for both <details> tabs and direct links */
 .tab,
 .tab-link {
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  border-radius: 12px;
+  background: var(--cnam-red);
+  border: 1px solid var(--cnam-red);
+  border-radius: 14px;
   overflow: hidden;
-  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
 }
 
 .tab-link {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 20px;
+  gap: 16px;
+  min-height: 84px;
+  padding: 26px 28px;
   text-decoration: none;
-  color: var(--ink);
 }
 
 .tab-head {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 20px;
+  gap: 16px;
+  min-height: 84px;
+  box-sizing: border-box;
+  padding: 26px 28px;
   cursor: pointer;
   list-style: none;
-  color: var(--ink);
 }
 
 .tab-head::-webkit-details-marker { display: none; }
 
 .tab:hover,
-.tab[open],
 .tab-link:hover {
   transform: translateY(-3px);
-  border-color: var(--cnam-red);
-  box-shadow: 0 10px 24px rgba(200, 16, 46, 0.15);
+  background: var(--cnam-red-dark);
+  box-shadow: 0 12px 26px rgba(200, 16, 46, 0.28);
   text-decoration: none;
 }
 
-.tab[open] { transform: none; }
+.tab[open] {
+  background: var(--cnam-red);
+}
 
 .icon {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   line-height: 1;
 }
 
 .tab-label {
   font-family: 'Raleway', system-ui, sans-serif;
-  font-weight: 600;
-  font-size: 1.12rem;
-  color: var(--cnam-red);
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #ffffff;
 }
 
 .caret {
   margin-left: auto;
-  color: var(--cnam-red);
+  color: #ffffff;
   transition: transform 0.2s ease;
 }
 
@@ -165,18 +167,21 @@ h1, h2, h3 {
   transform: rotate(180deg);
 }
 
-/* Roll-down menu */
+/* Roll-down menu: white panel inside the red box */
 .tab-menu {
   display: flex;
   flex-direction: column;
-  border-top: 1px solid var(--card-border);
+  background: #ffffff;
+  margin: 0 6px 6px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .tab-menu a,
 .tab-menu .disabled {
-  padding: 12px 20px;
+  padding: 13px 22px;
   font-family: 'Raleway', system-ui, sans-serif;
-  font-size: 0.97rem;
+  font-size: 0.98rem;
   text-decoration: none;
   border-bottom: 1px solid #f1f1f1;
 }
@@ -200,6 +205,83 @@ h1, h2, h3 {
 .tab-menu a:last-child,
 .tab-menu .disabled:last-child {
   border-bottom: none;
+}
+
+/* === Red separator rule === */
+.cnam-rule {
+  border: none;
+  border-top: 4px solid var(--cnam-red);
+  margin: 54px 0 28px;
+}
+
+/* === Highlights in Research === */
+.highlights-title {
+  font-family: 'Raleway', system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: var(--ink);
+  margin: 0 0 4px;
+}
+
+.highlights-sub {
+  color: var(--muted);
+  margin: 0 0 22px;
+}
+
+.highlights {
+  list-style: none;
+  counter-reset: hl;
+  padding: 0;
+  margin: 0;
+}
+
+.highlights li {
+  counter-increment: hl;
+  position: relative;
+  padding: 16px 0 16px 44px;
+  border-bottom: 1px solid var(--card-border);
+}
+
+.highlights li::before {
+  content: counter(hl);
+  position: absolute;
+  left: 0;
+  top: 16px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--cnam-red);
+  color: #ffffff;
+  font-family: 'Raleway', system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.highlights li a {
+  font-family: 'Raleway', system-ui, sans-serif;
+  font-weight: 600;
+  color: var(--cnam-red);
+  font-size: 1.05rem;
+}
+
+.highlights .meta {
+  display: block;
+  color: var(--muted);
+  font-size: 0.98rem;
+  margin-top: 4px;
+}
+
+.all-papers {
+  margin-top: 22px;
+  font-family: 'Raleway', system-ui, sans-serif;
+  font-weight: 600;
+}
+
+.all-papers a {
+  color: var(--cnam-red);
 }
 
 /* === Links (content pages) === */
