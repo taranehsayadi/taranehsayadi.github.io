@@ -5,6 +5,7 @@
 :root {
   --cnam-red: #C8102E;
   --cnam-red-dark: #9c0c23;
+  --cnam-red-soft: rgba(200, 16, 46, 0.08);
   --ink: #1a1a1a;
   --muted: #5c5c5c;
   --bg: #ffffff;
@@ -34,133 +35,188 @@ body {
   padding: 0 24px 60px;
 }
 
-/* === Top logo bar (overline, top-left per Cnam charte) === */
-.cnam-bar {
-  border-bottom: 1px solid var(--card-border);
-  padding: 16px 24px;
+/* === Header: logo left, profile to its right === */
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 18px 24px 22px;
+  border-bottom: 4px solid var(--cnam-red);
+  background: #ffffff;
 }
 
-.cnam-bar img {
-  height: 44px;
+.site-header .logo img {
+  height: 36px;
   width: auto;
   display: block;
 }
 
-/* === Header (name + email + photo) === */
-.custom-header {
-  text-align: center;
-  padding: 48px 20px 32px;
-  border-bottom: 4px solid var(--cnam-red);
-  margin-bottom: 40px;
+.site-header .profile {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-left: auto;
 }
 
-.custom-header img {
-  width: 160px;
-  max-width: 60%;
+.site-header .profile img {
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
-  border: 4px solid var(--cnam-red);
-  margin-bottom: 20px;
   object-fit: cover;
-  aspect-ratio: 1 / 1;
+  background: #ffffff;
+  border: 4px solid var(--cnam-red);
 }
 
-.custom-header h1 {
+.site-header .profile-text h1 {
   font-family: 'Raleway', system-ui, sans-serif;
   font-weight: 700;
   color: var(--cnam-red);
   letter-spacing: 0.5px;
-  margin: 0 0 6px 0;
+  font-size: 1.6rem;
+  margin: 0 0 4px 0;
 }
 
-.custom-header p {
+.site-header .profile-text p {
   color: var(--muted);
   margin: 0;
-  font-size: 1.05rem;
+  font-size: 1.02rem;
 }
 
-/* === Section titles === */
+/* === Headings === */
 h1, h2, h3 {
   font-family: 'Raleway', system-ui, sans-serif;
   font-weight: 600;
   color: var(--ink);
 }
 
-.section-title {
-  font-family: 'Raleway', system-ui, sans-serif;
-  font-weight: 700;
-  font-size: 1.5rem;
-  color: var(--ink);
-  margin: 40px 0 4px;
-  padding-left: 12px;
-  border-left: 5px solid var(--cnam-red);
-}
-
-/* === Card grid === */
-.section-grid {
+/* === Tab navigation === */
+.tab-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 18px;
-  margin: 18px 0 8px;
+  margin-top: 40px;
+  align-items: start;
 }
 
-.section-card {
-  display: flex;
-  flex-direction: column;
+/* Shared box look for both <details> tabs and direct links */
+.tab,
+.tab-link {
   background: var(--card-bg);
   border: 1px solid var(--card-border);
   border-radius: 12px;
-  padding: 22px 20px;
-  text-decoration: none;
-  color: var(--ink);
+  overflow: hidden;
   transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 
-a.section-card:hover {
-  transform: translateY(-4px);
+.tab-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.tab-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px;
+  cursor: pointer;
+  list-style: none;
+  color: var(--ink);
+}
+
+.tab-head::-webkit-details-marker { display: none; }
+
+.tab:hover,
+.tab[open],
+.tab-link:hover {
+  transform: translateY(-3px);
   border-color: var(--cnam-red);
   box-shadow: 0 10px 24px rgba(200, 16, 46, 0.15);
   text-decoration: none;
 }
 
-/* Non-linked placeholder cards (no page yet) */
-.section-card.disabled {
-  opacity: 0.65;
-  cursor: default;
-}
+.tab[open] { transform: none; }
 
-.section-card .icon {
-  font-size: 2rem;
+.icon {
+  font-size: 1.5rem;
   line-height: 1;
-  margin-bottom: 12px;
 }
 
-.section-card .card-title {
+.tab-label {
   font-family: 'Raleway', system-ui, sans-serif;
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1.12rem;
   color: var(--cnam-red);
-  margin: 0 0 6px 0;
 }
 
-.section-card .card-desc {
-  font-size: 0.95rem;
-  color: var(--muted);
-  margin: 0;
+.caret {
+  margin-left: auto;
+  color: var(--cnam-red);
+  transition: transform 0.2s ease;
 }
 
-/* === Links === */
-a {
+.tab[open] .caret {
+  transform: rotate(180deg);
+}
+
+/* Roll-down menu */
+.tab-menu {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--card-border);
+}
+
+.tab-menu a,
+.tab-menu .disabled {
+  padding: 12px 20px;
+  font-family: 'Raleway', system-ui, sans-serif;
+  font-size: 0.97rem;
+  text-decoration: none;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.tab-menu a {
+  color: var(--ink);
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.tab-menu a:hover {
+  background: var(--cnam-red-soft);
   color: var(--cnam-red);
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
+.tab-menu .disabled {
+  color: #aaaaaa;
+  cursor: default;
+}
+
+.tab-menu a:last-child,
+.tab-menu .disabled:last-child {
+  border-bottom: none;
+}
+
+/* === Links (content pages) === */
+a {
+  color: var(--cnam-red);
 }
 
 /* === Mobile === */
-@media (max-width: 480px) {
-  .section-grid {
+@media (max-width: 600px) {
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .site-header .profile {
+    margin-left: 0;
+  }
+  .tab-grid {
     grid-template-columns: 1fr;
   }
 }

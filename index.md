@@ -4,99 +4,55 @@ layout: default
 
 <link rel="stylesheet" href="assets/css/custom.css">
 
-<!-- Cnam logo bar (top-left, per the charte graphique) -->
-<div class="cnam-bar">
-  <img src="assets/leCnam_Logo-2024_CMJN.png" alt="le Cnam">
-</div>
-
-<!-- Header: name, email, photo -->
-<div class="custom-header">
-  <img src="assets/profile_photo.jpg" alt="Taraneh Sayadi">
-  <h1>Taraneh SAYADI</h1>
-  <p>taraneh.sayadi@lecnam.net</p>
+<!-- Header: logo top-left, profile to its right -->
+<div class="site-header">
+  <a class="logo" href="index.md"><img src="assets/leCnam_Logo-2024_CMJN.png" alt="le Cnam"></a>
+  <div class="profile">
+    <img src="assets/profile_photo.jpg" alt="Taraneh Sayadi">
+    <div class="profile-text">
+      <h1>Taraneh SAYADI</h1>
+      <p>taraneh.sayadi@lecnam.net</p>
+    </div>
+  </div>
 </div>
 
 <div class="page-content">
 
-<h2 class="section-title">Teaching</h2>
-<div class="section-grid">
-  <a class="section-card" href="MU5MEF41/index.md">
-    <span class="icon">📈</span>
-    <span class="card-title">MU5MEF41</span>
-    <span class="card-desc">Optimisation algorithms</span>
-  </a>
-  <a class="section-card" href="MU4MEF01/index.md">
-    <span class="icon">📐</span>
-    <span class="card-title">MU4MEF01</span>
-    <span class="card-desc">Numerical methods for linear PDEs</span>
-  </a>
-  <div class="section-card disabled">
-    <span class="icon">🧮</span>
-    <span class="card-title">MU4MEM02</span>
-    <span class="card-desc">Numerical methods for non-linear PDEs</span>
-  </div>
-  <div class="section-card disabled">
-    <span class="icon">🌀</span>
-    <span class="card-title">MU4MEF08</span>
-    <span class="card-desc">Hydrodynamic instability</span>
-  </div>
-</div>
+<div class="tab-grid">
 
-<h2 class="section-title">Research</h2>
-<div class="section-grid">
-  <a class="section-card" href="AIFM/index.md">
-    <span class="icon">🤖</span>
-    <span class="card-title">AI-driven modeling</span>
-    <span class="card-desc">Machine learning for fluid mechanics</span>
-  </a>
-  <a class="section-card" href="OFM/index.md">
-    <span class="icon">🎯</span>
-    <span class="card-title">Multi-fidelity optimisation</span>
-    <span class="card-desc">Optimisation across model fidelities</span>
-  </a>
-  <a class="section-card" href="CFD/index.md">
-    <span class="icon">🌊</span>
-    <span class="card-title">Simulations of complex flows</span>
-    <span class="card-desc">High-fidelity CFD</span>
-  </a>
-  <a class="section-card" href="UQ/index.md">
-    <span class="icon">📊</span>
-    <span class="card-title">Sensitivity &amp; uncertainty</span>
-    <span class="card-desc">Sensitivity analysis and UQ</span>
-  </a>
-</div>
+  <details class="tab">
+    <summary class="tab-head"><span class="icon">📚</span><span class="tab-label">Teaching</span><span class="caret">▾</span></summary>
+    <div class="tab-menu">
+      <a href="MU5MEF41/index.md">MU5MEF41 — Optimisation algorithms</a>
+      <a href="MU4MEF01/index.md">MU4MEF01 — Numerical methods for linear PDEs</a>
+      <span class="disabled">MU4MEM02 — Numerical methods for non-linear PDEs</span>
+      <span class="disabled">MU4MEF08 — Hydrodynamic instability</span>
+    </div>
+  </details>
 
-<h2 class="section-title">Open positions</h2>
-<div class="section-grid">
-  <a class="section-card" href="STAGE/index.md">
-    <span class="icon">🧪</span>
-    <span class="card-title">Internships</span>
-    <span class="card-desc">Internship openings</span>
-  </a>
-  <a class="section-card" href="PHD/index.md">
-    <span class="icon">🎓</span>
-    <span class="card-title">PhD</span>
-    <span class="card-desc">PhD openings</span>
-  </a>
-  <a class="section-card" href="POSTDOC/index.md">
-    <span class="icon">🔬</span>
-    <span class="card-title">PostDoc</span>
-    <span class="card-desc">PostDoc openings</span>
-  </a>
-</div>
+  <details class="tab">
+    <summary class="tab-head"><span class="icon">🔬</span><span class="tab-label">Research</span><span class="caret">▾</span></summary>
+    <div class="tab-menu">
+      <a href="AIFM/index.md">AI-driven modeling</a>
+      <a href="OFM/index.md">Multi-fidelity optimisation</a>
+      <a href="CFD/index.md">Simulations of complex flows</a>
+      <a href="UQ/index.md">Sensitivity analysis &amp; uncertainty quantification</a>
+    </div>
+  </details>
 
-<h2 class="section-title">More</h2>
-<div class="section-grid">
-  <a class="section-card" href="Papers/index.md">
-    <span class="icon">📄</span>
-    <span class="card-title">Papers</span>
-    <span class="card-desc">Publications</span>
-  </a>
-  <a class="section-card" href="CV/index.md">
-    <span class="icon">👤</span>
-    <span class="card-title">CV</span>
-    <span class="card-desc">Curriculum vitae</span>
-  </a>
+  <details class="tab">
+    <summary class="tab-head"><span class="icon">🎓</span><span class="tab-label">Open Positions</span><span class="caret">▾</span></summary>
+    <div class="tab-menu">
+      <a href="STAGE/index.md">Internships</a>
+      <a href="PHD/index.md">PhD</a>
+      <a href="POSTDOC/index.md">PostDoc</a>
+    </div>
+  </details>
+
+  <a class="tab-link" href="Papers/index.md"><span class="icon">📄</span><span class="tab-label">Papers</span></a>
+
+  <a class="tab-link" href="CV/index.md"><span class="icon">👤</span><span class="tab-label">CV</span></a>
+
 </div>
 
 </div>
