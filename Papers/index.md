@@ -17,39 +17,38 @@ layout: default
 </style>
 
 # 2026
-* K. Niemietz, C. Scherding, W. Gemassmer, T. Sayadi and H. Pitsch (2026). An adaptive-learning framework for chemistry tabulation in turbulent reacting flows. Computers & Fluids. Vol 314.
-* I. Zighed, N. Thome, P. Gallinari and T. Sayadi (2026). Leveraging Scale Separation and Stochastic Closure for Data-Driven Prediction of Chaotic Dynamics. Data-Centric Engineering. 
-* T. Fullana, A. Quiros Rodriguez, V. Le Chenadec and T. Sayadi (2026). Adjoint-based optimization of the Rayleigh-Bénard instability with melting boundary. Structural and Multidisciplinary Optimization. 
+* K. Niemietz, C. Scherding, W. Gemassmer, T. Sayadi and H. Pitsch (2026). [An adaptive-learning framework for chemistry tabulation in turbulent reacting flows](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5286473). Computers & Fluids. Vol 314.
+* I. Zighed, N. Thome, P. Gallinari and T. Sayadi (2026). [Leveraging Scale Separation and Stochastic Closure for Data-Driven Prediction of Chaotic Dynamics](https://www.cambridge.org/core/journals/data-centric-engineering/article/leveraging-scale-separation-and-stochastic-closure-for-datadriven-prediction-of-chaotic-dynamics/4744603B7180F03808BE37612ADC2652). Data-Centric Engineering.
+* T. Fullana, A. Quiros Rodriguez, V. Le Chenadec and T. Sayadi (2026). [Adjoint-based optimization of the Rayleigh-Bénard instability with melting boundary](https://arxiv.org/abs/2503.23831). Structural and Multidisciplinary Optimization.
 
 # 2025
-* I. Zighed, N. Thome, P. Gallinari and T. Sayadi (2025). Uncertainty-aware and parametrized dynamic reduced-order model: Application to unsteady flows. Phys. Rev. Fluids. Vol:10(11).  
-* N. Sevryugina, S. Costanzo, S. de Bruyn Kops, C. Caulfield, I. Mortazavi & T. Sayadi (2025). Equation-informed data-driven identification of flow budgets and dynamics. Phys. Rev. Fluids. DOI:10.1103/45wc-c3ww
-* A.T. Margaritis, C. Scherding, O. Marxen, P.J. Schmid & T. Sayadi (2025). Chemical-nonequilibrium effects in a range of hypersonic applications. European Journal of Mechanics - B/Fluids. https://doi.org/10.1016/j.euromechflu.2025.204273.
-* P. Gupta, P.J. Schmid, D. Sipp, T. Sayadi & G. Rigas (2025). Mori–Zwanzig latent space Koopman closure for nonlinear autoencoder. Proc. R. Soc. A.481, http://doi.org/10.1098/rspa.2024.0259.
+* I. Zighed, N. Thome, P. Gallinari and T. Sayadi (2025). [Uncertainty-aware and parametrized dynamic reduced-order model: Application to unsteady flows](https://doi.org/10.1103/f6ty-t6gl). Phys. Rev. Fluids. Vol:10(11).
+* N. Sevryugina, S. Costanzo, S. de Bruyn Kops, C. Caulfield, I. Mortazavi & T. Sayadi (2025). [Equation-informed data-driven identification of flow budgets and dynamics](https://doi.org/10.1103/45wc-c3ww). Phys. Rev. Fluids.
+* A.T. Margaritis, C. Scherding, O. Marxen, P.J. Schmid & T. Sayadi (2025). [Chemical-nonequilibrium effects in a range of hypersonic applications](https://doi.org/10.1016/j.euromechflu.2025.204273). European Journal of Mechanics - B/Fluids.
+* P. Gupta, P.J. Schmid, D. Sipp, T. Sayadi & G. Rigas (2025). [Mori–Zwanzig latent space Koopman closure for nonlinear autoencoder](https://doi.org/10.1098/rspa.2024.0259). Proc. R. Soc. A. 481.
 
 # 2024
-* A. Quirós Rodríguez, T. Fullana, T. Sayadi & V. Le Chenadec (2024). A levelset-based cut-cell method for interfacial flows: part 2—free-surface flows and dynamic contact angle treatment. Acta Mech https://doi.org/10.1007/s00707-024-04170-z
-* A. Quirós Rodríguez, V. Fullana, V. Le Chenadec, & T. Sayadi (2024). A levelset-based cut-cell method for interfacial flows: part 1—Navier–Stokes equations and Rayleigh–Bénard instability with melting boundary. Acta Mech. https://doi.org/10.1007/s00707-024-04133-4
-* C. Scherding, G. Rigas, D. Sipp, P.J. Schmid, & T. Sayadi (2024). An adaptive learning strategy for surrogate modeling of high-dimensional functions - Application to unsteady hypersonic flows in chemical nonequilibrium. Computer Physics Communications, 109404
-* A. Quirós Rodríguez, M. Fosas de Pando, & T. Sayadi (2024). Gradient-enhanced stochastic optimization of high-fidelity simulations, Computer Physics Communications, Vol. 298, 109122
-* A. Hassan, L. Schumacher, M. Sabry, V. Le Chenadec, & T. Sayadi (2024). Uncertainty quantification and sensitivity analysis of an unsteady axisymmetric reacting solid particle, Combustion and Flame, Vol. 262, 113365
+* A. Quirós Rodríguez, T. Fullana, T. Sayadi & V. Le Chenadec (2024). [A levelset-based cut-cell method for interfacial flows: part 2—free-surface flows and dynamic contact angle treatment](https://doi.org/10.1007/s00707-024-04170-z). Acta Mech.
+* A. Quirós Rodríguez, V. Fullana, V. Le Chenadec, & T. Sayadi (2024). [A levelset-based cut-cell method for interfacial flows: part 1—Navier–Stokes equations and Rayleigh–Bénard instability with melting boundary](https://doi.org/10.1007/s00707-024-04133-4). Acta Mech.
+* C. Scherding, G. Rigas, D. Sipp, P.J. Schmid, & T. Sayadi (2024). [An adaptive learning strategy for surrogate modeling of high-dimensional functions - Application to unsteady hypersonic flows in chemical nonequilibrium](https://doi.org/10.1016/j.cpc.2024.109404). Computer Physics Communications, 109404.
+* A. Quirós Rodríguez, M. Fosas de Pando, & T. Sayadi (2024). [Gradient-enhanced stochastic optimization of high-fidelity simulations](https://doi.org/10.1016/j.cpc.2024.109122), Computer Physics Communications, Vol. 298, 109122.
+* A. Hassan, L. Schumacher, M. Sabry, V. Le Chenadec, & T. Sayadi (2024). [Uncertainty quantification and sensitivity analysis of an unsteady axisymmetric reacting solid particle](https://doi.org/10.1016/j.combustflame.2024.113365), Combustion and Flame, Vol. 262, 113365.
 
 # 2023
-* C. Scherding, G. Rigas, D. Sipp, P.J. Schmid, & T. Sayadi (2023). Data-driven framework for input/output lookup tables reduction: Application to hypersonic flows in chemical nonequilibrium. Phys. Rev. Fluids, Vol. 8, 023201
-* A. Hassan, M. Sabry, V. Le Chenadec, & T. Sayadi (2023). Uncertainty quantification of kinetic models using adjoint-driven active subspace algorithms, Proceedings of the Combustion Institute,
-Vol. 39(4): 5209-5218 
+* C. Scherding, G. Rigas, D. Sipp, P.J. Schmid, & T. Sayadi (2023). [Data-driven framework for input/output lookup tables reduction: Application to hypersonic flows in chemical nonequilibrium](https://doi.org/10.1103/PhysRevFluids.8.023201). Phys. Rev. Fluids, Vol. 8, 023201.
+* A. Hassan, M. Sabry, V. Le Chenadec, & T. Sayadi (2023). [Uncertainty quantification of kinetic models using adjoint-driven active subspace algorithms](https://doi.org/10.1016/j.proci.2022.07.177), Proceedings of the Combustion Institute, Vol. 39(4): 5209-5218.
 
 
 # 2022
-* T. Fullana, V. Le Chenadec, & T. Sayadi (2022). Adjoint-based optimization of two-dimensional Stefan problems, J Comp. Physics, https://doi.org/10.1016/j.jcp.2022.111875 
-* A. Hassan, M. Sabry, V. Le Chenadec, & T. Sayadi (2022). Uncertainty quantification of kinetic models using adjoint-driven active subspace algorithms. Proceed. Combust. Inst. https://doi.org/10.1016/j.proci.2022.07.177
-* S. Costanzo, T. Sayadi, M. Fosas de Pando, P.J. Schmid, & P. Frey (2022). Parallel-in-time adjoint-based optimization – application to unsteady incompressible flows. J Comp. Physics, 471:111664
+* T. Fullana, V. Le Chenadec, & T. Sayadi (2022). [Adjoint-based optimization of two-dimensional Stefan problems](https://doi.org/10.1016/j.jcp.2022.111875), J Comp. Physics.
+* A. Hassan, M. Sabry, V. Le Chenadec, & T. Sayadi (2022). [Uncertainty quantification of kinetic models using adjoint-driven active subspace algorithms](https://doi.org/10.1016/j.proci.2022.07.177). Proceed. Combust. Inst.
+* S. Costanzo, T. Sayadi, M. Fosas de Pando, P.J. Schmid, & P. Frey (2022). [Parallel-in-time adjoint-based optimization – application to unsteady incompressible flows](https://doi.org/10.1016/j.jcp.2022.111664). J Comp. Physics, 471:111664.
 
 # 2021
-* T. Sayadi & P.J. Schmid, (2021) Frequency response analysis of a (non)reactive jet in crossflow. J Fluid Mech., Vol. 922, hal-03284082v1
-* A. Hassan, T. Sayadi, V. Le Chenadec, & A. Attili, (2021) Sensitivity analysis of an unsteady char particle combustion, Fuel, Vol. 287
-* A. Hassan, T. Sayadi, M. Schiemann, & V. Scherer, (2021) Adjoint-based sensitivity analysis of char combustion surface kinetic reactions, Fuel, Vol. 287
+* T. Sayadi & P.J. Schmid, (2021) [Frequency response analysis of a (non)reactive jet in crossflow](https://hal.science/hal-03284082). J Fluid Mech., Vol. 922.
+* A. Hassan, T. Sayadi, V. Le Chenadec, & A. Attili, (2021) [Sensitivity analysis of an unsteady char particle combustion](https://doi.org/10.1016/j.fuel.2020.119738), Fuel, Vol. 287.
+* A. Hassan, T. Sayadi, M. Schiemann, & V. Scherer, (2021) [Adjoint-based sensitivity analysis of char combustion surface kinetic reactions](https://www.sciencedirect.com/science/article/abs/pii/S0016236120324996), Fuel, Vol. 287.
 
 # 2020
-* A. Hassan, T. Sayadi, V. Le Chenadec, H. Pitsch, & A. Attili, (2020) Adjoint-Based Sensitivity Analysis of Steady Char Burnout, Combust. Theo. Modelling, hal-03011351v1
-* A. Fikl, V. Le Chenadec, & T. Sayadi, Control and Optimization of Interfacial Flows Using Adjoint-Based Techniques, Fluids, Vol. 5(3):156, hal-03011370v1
+* A. Hassan, T. Sayadi, V. Le Chenadec, H. Pitsch, & A. Attili, (2020) [Adjoint-Based Sensitivity Analysis of Steady Char Burnout](https://hal.science/hal-03011351), Combust. Theo. Modelling.
+* A. Fikl, V. Le Chenadec, & T. Sayadi, [Control and Optimization of Interfacial Flows Using Adjoint-Based Techniques](https://hal.science/hal-03011370), Fluids, Vol. 5(3):156.
