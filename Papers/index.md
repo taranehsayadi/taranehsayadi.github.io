@@ -1,6 +1,21 @@
 ---
 title: Papers
+layout: default
 ---
+
+<link rel="stylesheet" href="../assets/css/custom.css">
+<style>
+  .main-content h1 {
+    color: var(--cnam-red);
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-weight: 700;
+    padding-left: 12px;
+    border-left: 5px solid var(--cnam-red);
+    margin-top: 36px;
+  }
+  .main-content { padding-bottom: 60px; }
+</style>
+
 # 2026
 * K. Niemietz, C. Scherding, W. Gemassmer, T. Sayadi and H. Pitsch (2026). An adaptive-learning framework for chemistry tabulation in turbulent reacting flows. Computers & Fluids. Vol 314.
 * I. Zighed, N. Thome, P. Gallinari and T. Sayadi (2026). Leveraging Scale Separation and Stochastic Closure for Data-Driven Prediction of Chaotic Dynamics. Data-Centric Engineering. 
