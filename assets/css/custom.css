@@ -106,8 +106,8 @@ h1, h2, h3 {
 /* Shared translucent-red box look for both <details> tabs and direct links */
 .tab,
 .tab-link {
-  background: var(--cnam-red-trans);
-  border: 1px solid var(--cnam-red-trans);
+  background: #ffffff;
+  border: 1px solid var(--card-border);
   border-radius: 14px;
   overflow: hidden;
   transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
@@ -140,30 +140,32 @@ h1, h2, h3 {
 .tab:hover,
 .tab-link:hover {
   transform: translateY(-3px);
-  background: var(--cnam-red-trans-hover);
-  box-shadow: 0 12px 26px rgba(200, 16, 46, 0.28);
+  background: var(--cnam-red-soft);
+  border-color: var(--cnam-red);
+  box-shadow: 0 12px 26px rgba(200, 16, 46, 0.18);
   text-decoration: none;
 }
 
 .tab[open] {
-  background: var(--cnam-red-trans);
+  background: #ffffff;
 }
 
 .icon {
   font-size: 1.6rem;
   line-height: 1;
+  color: var(--cnam-red);
 }
 
 .tab-label {
   font-family: 'Raleway', system-ui, sans-serif;
   font-weight: 700;
   font-size: 1.02rem;
-  color: #ffffff;
+  color: var(--cnam-red);
   white-space: normal;
 }
 
 .caret {
-  color: #ffffff;
+  color: var(--cnam-red);
   transition: transform 0.2s ease;
 }
 
