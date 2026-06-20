@@ -11,7 +11,7 @@ layout: default
     <img src="assets/profile_photo.jpg" alt="Taraneh Sayadi">
     <div class="profile-text">
       <h1>Taraneh SAYADI</h1>
-      <p>taraneh.sayadi@lecnam.net</p>
+      <p>taraneh.sayadi@cnam.fr</p>
     </div>
   </div>
 </div>
