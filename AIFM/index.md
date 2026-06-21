@@ -37,7 +37,13 @@ Simulating turbulent fluid flows is computationally prohibitive, requiring the r
 
 The first, a stochastic scale-separated framework, decomposes the flow into large-scale coherent structures and small-scale fluctuations. Large-scale dynamics are predicted using the UP-dROM architecture — a VAE–Transformer model trained on low-pass filtered flow data — which generates ensembles of statistically consistent trajectories with a Prediction Interval Coverage Probability (PICP) of ~80%. Small-scale closure is achieved using Gaussian Process (GP) regression in a POD-reduced space, providing a lightweight probabilistic mapping from filtered to full-resolution fields. The GP outperforms VAE and diffusion model baselines across all metrics, including first-moment errors and Continuous Ranked Probability Score (CRPS), while generating full dynamic rollouts with a single inference pass.
 
+![Stochastic scale-separated framework](fig2.png)
+
+<p class="ref">Reference: <a href="https://www.cambridge.org/core/journals/data-centric-engineering/article/leveraging-scale-separation-and-stochastic-closure-for-datadriven-prediction-of-chaotic-dynamics/4744603B7180F03808BE37612ADC2652">Zighed et al., Data-Centric Engineering (2026)</a></p>
+
 The second approach introduces the Hierarchical Fourier Neural Operator (HFNO), which decomposes the Fourier domain into physically meaningful wavenumber bins — energy-containing, inertial, and dissipative scales — each processed by a dedicated neural network. This architecture achieves comparable accuracy to standard Fourier Neural Operators with five times fewer parameters, while offering interpretability at each scale. It has been validated on the Kuramoto–Sivashinsky equation, Kolmogorov flow, and wall shear stress prediction in turbulent channel flow.
+
+<p class="ref">Reference: <a href="https://arxiv.org/abs/2511.01535">Hierarchical Fourier Neural Operator, arXiv:2511.01535</a></p>
 
 <hr class="cnam-rule">
 
