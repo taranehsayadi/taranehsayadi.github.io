@@ -33,7 +33,7 @@ layout: default
   <details class="tab">
     <summary class="tab-head"><span class="icon">🔬</span><span class="tab-label">Research</span><span class="caret">▾</span></summary>
     <div class="tab-menu">
-      <a href="AIFM/">AI-driven modeling</a>
+      <a href="AIFM/">Scientific Machine Learning (SciML)</a>
       <a href="OFM/">Multi-fidelity optimisation</a>
       <a href="CFD/">Simulations of complex flows</a>
       <a href="UQ/">Sensitivity analysis &amp; uncertainty quantification</a>

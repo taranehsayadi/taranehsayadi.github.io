@@ -1,71 +1,46 @@
 ---
-title: AI & Fluid Mechanics
+title: Scientific Machine Learning (SciML)
+layout: default
 ---
 
-# Digital twin of Look-up libraries
-Hypersonic flows are of great interest in a wide range of aerospace
-applications and are a critical component of many technological 
-advances. Accurate simulations of these flows in thermodynamic 
-(non)-equilibrium (accounting for high temperature effects) rely 
-on detailed thermochemical gas models. While accurately capturing 
-the underlying aerothermochemistry, these models dramatically 
-increase the cost of such calculations. In our group, we present 
-a novel model-agnostic machine-learning technique to extract a 
-reduced thermochemical model of a gas mixture from a library. 
-A first simulation gathers all relevant thermodynamic states 
-and the corresponding gas properties via a given model. The states 
-are embedded in a low-dimensional space and clustered to identify 
-regions with different levels of thermochemical (non)-equilibrium. 
-Then, a surrogate surface from the reduced cluster-space to the 
-output space is generated using radial-basis-function networks.
-The method is validated and benchmarked on simulations of a 
-hypersonic flat-plate boundary layer and shock-wave boundary layer 
-interaction (shown in the figure below) with finite-rate chemistry. 
-The gas properties of the reactive air mixture are initially 
-modeled using the open-source Mutation++ library. Substituting 
-Mutation++ with the light-weight, machine-learned alternative 
-improves the performance of the solver by up to 70% while 
-maintaining overall accuracy in both cases.
+<link rel="stylesheet" href="../assets/css/custom.css">
+<style>
+  .main-content h1 {
+    color: var(--cnam-red);
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-weight: 700;
+    padding-left: 12px;
+    border-left: 5px solid var(--cnam-red);
+    margin-top: 36px;
+  }
+  .main-content img { max-width: 100%; height: auto; display: block; margin: 20px auto 6px; }
+  .fig-caption { font-style: italic; color: var(--muted); text-align: center; font-size: 0.95rem; margin: 0 auto 8px; }
+  .ref { font-family: 'Raleway', system-ui, sans-serif; font-weight: 600; }
+  hr.cnam-rule { border: none; border-top: 4px solid var(--cnam-red); height: 0; background: none; margin: 48px 0 8px; }
+  .main-content { padding-bottom: 60px; }
+</style>
 
-![Mutation-Light a digital library](DT.png "Digital Twin")
+# Robust Parametrised AI-Based ROMs
 
-# Data-driven dynamic identification
-With advances in computing power, larger and more accurate simulations are being performed, capable of capturing detailed interactions of various physical phenomena present in the flow. One of the main products of such expensive calculations is the resulting data, which is also increasing in size, opening the door to data-driven analysis, such as system identification and machine learning techniques.
+Reduced-order models (ROMs) must not only generalise across different dynamical regimes but also provide a measure of confidence in their predictions. We present UP-dROM (Uncertainty-aware and Parametrised dynamic Reduced-Order Model), a nonlinear reduction strategy specifically designed for transient flows. The approach combines a Variational Autoencoder (VAE) for probabilistic dimensionality reduction with a Transformer architecture that leverages attention mechanisms to capture temporal dependencies and parametric variations in the latent space. Cross-attention enables the model to generalise across a wide range of operating conditions defined by external parameters such as the Reynolds number and bluff body geometry. Uncertainty quantification is achieved at minimal computational cost and serves as a reliable proxy for model performance, enabling an adaptive sampling strategy that guides retraining toward regions of the parameter space where the model is least confident. The model achieves relative mean square errors below 0.5% on seen parameters and below 2.5% for interpolation tasks.
 
-In many regimes, the dynamics of physical systems, usually described by complex partial differential equations, are governed by only a few nonlinear terms, allowing the production of simpler models capable of predicting the main features of the underlying system. The determination of these structures inherent in such physical systems can be accomplished through the use of data-driven models and system identification. 
+![Confidence intervals for the U and V velocity fields](fig10.png)
+<p class="fig-caption">Confidence intervals for the U and V velocity fields at a fixed spatial location and parametrisation ξ: Re = 90.</p>
 
-In our group we explore a data-driven dynamics identification procedure realized by coupling sparse linear regression with network partitioning used for clustering purposes.
+<p class="ref">Reference: <a href="https://doi.org/10.1103/f6ty-t6gl">Zighed et al., Physical Review Fluids (2025)</a></p>
 
-![Dynamic identification of flow](DI.png "Dynamic identification")
+<hr class="cnam-rule">
 
-# EDNN - AI-aided aolution of PDE's
-Machine-learning (ML) holds significant promise in revolutionizing 
-a wide range of applications, in particular in the domain of multi-scale
-and multi-physics problems. Success in realizing the promise of ML
-is predicated on the availability of training data, which are often
-obtained from scientific computations. Conventional approaches to 
-solving the equations of physics require difficult and specialized 
-software development, grid generation and adaptation, and the use of 
-specialized data and software pipelines that differ from those 
-adopted in ML. A disruptive new approach that was recently proposed Zaki et al.
-is Evolutional Deep Neural Networks (EDNN, pronounced “Eden”) which 
-leverages the software and hardware infrastructure used in ML to replace 
-conventional computational methods, and to tackle their shortcomings. 
-EDNN is unique because it does not rely on training to express 
-known solutions, but rather the network parameters evolve using the 
-governing physical laws such that the network can predict the 
-evolution of the physical system. In our group, we are furhutr  
-developping the EDNN framework to solve high-dimensional partial 
-differential equations, used to model a vast range of phenomena in 
-economics, finance, operational research, and multi-phase fluid dynamics, 
-where population balance equations govern phenomena as diverse 
-as aerosol transmission of airborne pathogens or mixing enhancement 
-in energy conversion devices. The simulation of such flows is an 
-open issue of particular interest.  We will demonstrate the ease of 
-software development using automatic differentiation tools and the 
-capacity of EDNN to eliminate the curse of dimensionality and the 
-tyranny of moment closure. Success stands to disrupt and transform the 
-decades-old computational approach to solving nonlinear differential 
-equations and to remove the barriers to generation of training data required for ML.
+# Stable AI-Based Models of Turbulent Flows
 
-![Evolutionary Deep Naural Nets](EDNN.png "EDNN")
+Simulating turbulent fluid flows is computationally prohibitive, requiring the resolution of fine-scale structures and the capture of complex nonlinear interactions across multiple scales. To overcome the instability of deterministic models in chaotic regimes, we develop two complementary approaches.
+
+The first, a stochastic scale-separated framework, decomposes the flow into large-scale coherent structures and small-scale fluctuations. Large-scale dynamics are predicted using the UP-dROM architecture — a VAE–Transformer model trained on low-pass filtered flow data — which generates ensembles of statistically consistent trajectories with a Prediction Interval Coverage Probability (PICP) of ~80%. Small-scale closure is achieved using Gaussian Process (GP) regression in a POD-reduced space, providing a lightweight probabilistic mapping from filtered to full-resolution fields. The GP outperforms VAE and diffusion model baselines across all metrics, including first-moment errors and Continuous Ranked Probability Score (CRPS), while generating full dynamic rollouts with a single inference pass.
+
+The second approach introduces the Hierarchical Fourier Neural Operator (HFNO), which decomposes the Fourier domain into physically meaningful wavenumber bins — energy-containing, inertial, and dissipative scales — each processed by a dedicated neural network. This architecture achieves comparable accuracy to standard Fourier Neural Operators with five times fewer parameters, while offering interpretability at each scale. It has been validated on the Kuramoto–Sivashinsky equation, Kolmogorov flow, and wall shear stress prediction in turbulent channel flow.
+
+<hr class="cnam-rule">
+
+# ROMs for Sparse Observations and Flow Control
+
+In many practical configurations, the full flow field is not directly accessible and the system must be inferred from sparse sensor measurements. We propose FiROM (Field Reconstruction from sparse observations ROM), an uncertainty-aware parametrised reduced-order modeling framework that reconstructs full flow fields from a limited number of sensors. The approach combines a sparse encoder based on a Variational Autoencoder, a Transformer rollout model with cross-attention for parameter conditioning, and a Feature-wise Linear Modulation (FiLM) mechanism that adapts the model to varying operating conditions. Sensor locations are selected offline using a POD-based QR pivoting strategy to maximise reconstruction quality. The framework provides uncertainty estimates in space, time, and across the parameter space, making it suitable for realistic flow monitoring and control scenarios. It has been validated on Reynolds-number-parametrised flow past an obstacle and on the fluidic pinball configuration, a three-cylinder system parametrised by independent rotational boundary conditions.
