@@ -41,6 +41,8 @@ The first, a stochastic scale-separated framework, decomposes the flow into larg
 
 <p class="ref">Reference: <a href="https://www.cambridge.org/core/journals/data-centric-engineering/article/leveraging-scale-separation-and-stochastic-closure-for-datadriven-prediction-of-chaotic-dynamics/4744603B7180F03808BE37612ADC2652">Zighed et al., Data-Centric Engineering (2026)</a></p>
 
+The Reduced Order Model (ROM) is openly available on GitHub at [IsmaelZig-SU/p-DynSys_EncoderTransformerDecoder](https://github.com/IsmaelZig-SU/p-DynSys_EncoderTransformerDecoder). The complete modelling pipeline, including the source code and experimental datasets used in this study, is available in a separate GitHub repository at [IsmaelZig-SU/Scale-Separation-and-stochastic-closure-for-Chaotic-Dynamics](https://github.com/IsmaelZig-SU/Scale-Separation-and-stochastic-closure-for-Chaotic-Dynamics).
+
 The second approach introduces the Hierarchical Fourier Neural Operator (HFNO), which decomposes the Fourier domain into physically meaningful wavenumber bins — energy-containing, inertial, and dissipative scales — each processed by a dedicated neural network. This architecture achieves comparable accuracy to standard Fourier Neural Operators with five times fewer parameters, while offering interpretability at each scale. It has been validated on the Kuramoto–Sivashinsky equation, Kolmogorov flow, and wall shear stress prediction in turbulent channel flow.
 
 <p class="ref">Reference: <a href="https://arxiv.org/abs/2511.01535">Hierarchical Fourier Neural Operator, arXiv:2511.01535</a></p>
