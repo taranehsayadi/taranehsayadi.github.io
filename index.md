@@ -62,6 +62,10 @@ layout: default
 
 <ol class="highlights">
   <li>
+    <a href="https://doi.org/10.1016/j.compfluid.2026.107250" target="_blank" rel="noopener">Efficient adaptation of ROMs for unsteady flows using data assimilation</a>
+    <span class="meta">I. Zighed, A. Nóvoa, L. Magri &amp; T. Sayadi — <em>Computers &amp; Fluids</em> 319, 107250 (2026)</span>
+  </li>
+  <li>
     <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5286473" target="_blank" rel="noopener">An adaptive-learning framework for chemistry tabulation in turbulent reacting flows</a>
     <span class="meta">K. Niemietz, C. Scherding, W. Gemassmer, T. Sayadi &amp; H. Pitsch — <em>Computers &amp; Fluids</em> 314 (2026)</span>
   </li>
@@ -76,10 +80,6 @@ layout: default
   <li>
     <a href="https://doi.org/10.1103/f6ty-t6gl" target="_blank" rel="noopener">Uncertainty-aware and parametrized dynamic reduced-order model: Application to unsteady flows</a>
     <span class="meta">I. Zighed, N. Thome, P. Gallinari &amp; T. Sayadi — <em>Phys. Rev. Fluids</em> 10, 114902 (2025)</span>
-  </li>
-  <li>
-    <a href="https://doi.org/10.1103/45wc-c3ww" target="_blank" rel="noopener">Equation-informed data-driven identification of flow budgets and dynamics</a>
-    <span class="meta">N. Sevryugina, S. Costanzo, S. de Bruyn Kops, C. Caulfield, I. Mortazavi &amp; T. Sayadi — <em>Phys. Rev. Fluids</em> (2025)</span>
   </li>
 </ol>
 
