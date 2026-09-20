@@ -28,4 +28,6 @@ Most edits are content (Markdown) and can be verified by inspecting the Markdown
 
 - Section pages link to each other and to files using **relative paths** (e.g. `MU5MEF41/index.md`, `PHD/FdP_2026-IFPen.pdf`). Keep links relative so they resolve both locally and on the published `taranehsayadi.github.io` site.
 - Adding content = adding a Markdown file and/or PDF inside the relevant section directory, then linking to it from that section's `index.md` (and from the root `index.md` if it's a new top-level section).
+- To match the homepage's styling on a section page (e.g. `Papers/index.md`, `CV/index.md`, `MU5MEF41/index.md`), give it `layout: default` front matter, link `assets/css/custom.css` (relative path), and add a small inline `<style>` block coloring `.main-content h1` with `var(--cnam-red)` — see those files for the exact pattern.
+- Link to slide decks or documents as browser-viewable formats (PDF), not source formats like `.key`/`.pptx`, so links open in-browser instead of forcing a download.
 - `.DS_Store` and `.ipynb_checkpoints/` are gitignored.
