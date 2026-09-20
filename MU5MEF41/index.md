@@ -1,11 +1,24 @@
 ---
 title: MU5MEF41
+layout: default
 ---
 
+<link rel="stylesheet" href="../assets/css/custom.css">
+<style>
+  .main-content h1 {
+    color: var(--cnam-red);
+    font-family: 'Raleway', system-ui, sans-serif;
+    font-weight: 700;
+    padding-left: 12px;
+    border-left: 5px solid var(--cnam-red);
+    margin-top: 36px;
+  }
+  .main-content { padding-bottom: 60px; }
+</style>
 
 # Sessions
-[Lecture 1](Slides/Foundations_of_Optimization_Lecture1.pdf)
-[Lecture 2](Slides/Foundations_of_Optimization_Lecture2.pdf) 
+* [Lecture 1](Slides/Foundations_of_Optimization_Lecture1.pdf)
+* [Lecture 2](Slides/Foundations_of_Optimization_Lecture2.pdf)
 
 <!---
 * [Intro](Notebooks/intro.ipynb)
