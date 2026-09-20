@@ -20,8 +20,8 @@ layout: default
 
 ## Current Positions
 
-* **2025 –** Director of M2N laboratory, Conservatoire National des Arts et Métiers, Paris, France
-* **2024 –** Professor, Chair: Scientific Computing. M2N laboratory, Conservatoire National des Arts et Métiers, Paris, France
+* **2025 –** Director of MACS laboratory, Conservatoire National des Arts et Métiers, Paris, France
+* **2024 –** Professor, Chair: Scientific Computing. MACS laboratory, Conservatoire National des Arts et Métiers, Paris, France
 
 ## Previous Positions
 
