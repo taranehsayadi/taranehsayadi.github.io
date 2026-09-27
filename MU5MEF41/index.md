@@ -19,6 +19,7 @@ layout: default
 # Sessions
 * [Lecture 1](Slides/Foundations_of_Optimization_Lecture1.pdf)
 * [Lecture 2](Slides/Foundations_of_Optimization_Lecture2.pdf)
+* [Lecture 3](Slides/Foundations_of_Optimization_Lecture3.pdf)
 
 <!---
 * [Intro](Notebooks/intro.ipynb)
@@ -28,6 +29,10 @@ layout: default
 
 # Problem sets
 * [Problem set 1](PS/PS1.ipynb)
+* [Problem set 2](PS/PS2.ipynb)
+
+# Problem sets -- Solution
+* [Problem set 1 -- Solution](PS/PS1_soln.ipynb)
 
 <!---
 * [Problem set 1](PS/PS1.ipynb)
