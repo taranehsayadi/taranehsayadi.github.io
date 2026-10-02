@@ -17,6 +17,7 @@ layout: default
 </style>
 
 # 2026
+* M. Cayuela, V. Le Chenadec, P.J. Schmid and T. Sayadi (2026). [Hierarchical Fourier Neural Operator (HFNO): an interpretable data-driven decomposition strategy for turbulent flows](https://doi.org/10.1017/dce.2026.10064). Data-Centric Engineering. Vol 7, e45.
 * I. Zighed, A. Nóvoa, L. Magri and T. Sayadi (2026). [Efficient adaptation of ROMs for unsteady flows using data assimilation](https://doi.org/10.1016/j.compfluid.2026.107250). Computers & Fluids. Vol 319, 107250.
 * K. Niemietz, C. Scherding, W. Gemassmer, T. Sayadi and H. Pitsch (2026). [An adaptive-learning framework for chemistry tabulation in turbulent reacting flows](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5286473). Computers & Fluids. Vol 314.
 * I. Zighed, N. Thome, P. Gallinari and T. Sayadi (2026). [Leveraging Scale Separation and Stochastic Closure for Data-Driven Prediction of Chaotic Dynamics](https://www.cambridge.org/core/journals/data-centric-engineering/article/leveraging-scale-separation-and-stochastic-closure-for-datadriven-prediction-of-chaotic-dynamics/4744603B7180F03808BE37612ADC2652). Data-Centric Engineering.

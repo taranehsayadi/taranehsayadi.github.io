@@ -62,6 +62,10 @@ layout: default
 
 <ol class="highlights">
   <li>
+    <a href="https://doi.org/10.1017/dce.2026.10064" target="_blank" rel="noopener">Hierarchical Fourier Neural Operator (HFNO): an interpretable data-driven decomposition strategy for turbulent flows</a>
+    <span class="meta">M. Cayuela, V. Le Chenadec, P.J. Schmid &amp; T. Sayadi — <em>Data-Centric Engineering</em> 7, e45 (2026)</span>
+  </li>
+  <li>
     <a href="https://doi.org/10.1016/j.compfluid.2026.107250" target="_blank" rel="noopener">Efficient adaptation of ROMs for unsteady flows using data assimilation</a>
     <span class="meta">I. Zighed, A. Nóvoa, L. Magri &amp; T. Sayadi — <em>Computers &amp; Fluids</em> 319, 107250 (2026)</span>
   </li>
@@ -76,10 +80,6 @@ layout: default
   <li>
     <a href="https://arxiv.org/abs/2503.23831" target="_blank" rel="noopener">Adjoint-based optimization of the Rayleigh–Bénard instability with melting boundary</a>
     <span class="meta">T. Fullana, A. Quirós Rodríguez, V. Le Chenadec &amp; T. Sayadi — <em>Structural and Multidisciplinary Optimization</em> (2026)</span>
-  </li>
-  <li>
-    <a href="https://doi.org/10.1103/f6ty-t6gl" target="_blank" rel="noopener">Uncertainty-aware and parametrized dynamic reduced-order model: Application to unsteady flows</a>
-    <span class="meta">I. Zighed, N. Thome, P. Gallinari &amp; T. Sayadi — <em>Phys. Rev. Fluids</em> 10, 114902 (2025)</span>
   </li>
 </ol>
 
